@@ -63,7 +63,8 @@
                     padding: options.padding,
                     borderRadius: options.borderRadius,
                     position: "absolute",
-                    display: "none"
+                    display: "none",
+                    zIndex: 9999
                 });
                 $(this).after(picker);
                 var mapDiv = $("<div class='picker-map'>Loading</div>").css({
